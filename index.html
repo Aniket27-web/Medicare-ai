@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicare AI - Your Personal Healthcare Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-container">
+                <!-- Logo placeholder - replace with your actual logo -->
+                <div class="logo-placeholder">
+                    <img src="/project/images/logo.png" alt="Medicare AI Logo" class="logo-image">
+                      <span>Medicare AI</span>
+                </div>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Your Personal <span class="highlight">Healthcare Assistant</span>
+                </h1>
+                <p class="hero-description">
+                    Get instant medical guidance, symptom analysis, and health recommendations 24/7 
+                    with our AI-powered Medicare chatbot. Your health, our priority.
+                </p>
+                <div class="hero-buttons">
+                    <button class="cta-button primary" id="tryNowBtn">
+                        <i class="fas fa-comments"></i>
+                        Try Now - Free
+                    </button>
+                    <button class="cta-button secondary">
+                        <i class="fas fa-play"></i>
+                        Watch Demo
+                    </button>
+                </div>
+                <div class="trust-indicators">
+                    <div class="trust-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>HIPAA Compliant</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fas fa-clock"></i>
+                        <span>24/7 Available</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fas fa-user-md"></i>
+                        <span>Doctor Approved</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="chatbot-mockup">
+                    <div class="chat-header">
+                        <div class="chat-avatar">
+                            <img src="/project/images/chatlogo.png" alt="Medicare AI Logo" class="logo-image">
+                        </div>
+                        <div class="chat-info">
+                            <h4>Medicare AI</h4>
+                            <span class="online-status">Online</span>
+                        </div>
+                    </div>
+                    <div class="chat-messages">
+                        <div class="message bot-message">
+                            <div class="message-content">
+                                Hello! I'm your Medicare AI assistant. How can I help you today?
+                            </div>
+                        </div>
+                        <div class="message user-message">
+                            <div class="message-content">
+                                I have a headache and fever
+                            </div>
+                        </div>
+                        <div class="message bot-message typing">
+                            <div class="message-content">
+                                <div class="typing-indicator">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Features for Better Healthcare</h2>
+                <p>Experience the future of healthcare with our AI-powered assistant</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>Symptom Analysis</h3>
+                    <p>Get instant preliminary assessment of your symptoms with AI-powered analysis</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <h3>Medication Guidance</h3>
+                    <p>Receive information about medications, dosages, and potential interactions</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Appointment Booking</h3>
+                    <p>Schedule appointments with healthcare providers in your area effortlessly</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Health Tracking</h3>
+                    <p>Monitor your health metrics and receive personalized recommendations</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Emergency Assistance</h3>
+                    <p>Quick access to emergency services and critical health information</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Wellness Tips</h3>
+                    <p>Daily health tips and preventive care recommendations tailored for you</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Experience Better Healthcare?</h2>
+                <p>Join thousands of users who trust Medicare AI for their healthcare needs</p>
+                <button class="cta-button primary large" id="tryNowBtnBottom">
+                    <i class="fas fa-comments"></i>
+                    Start Chatting Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo-container">
+                        <div class="logo-placeholder">
+                            <i class="fas fa-robot"></i>
+                            <span>Medicare AI</span>
+                        </div>
+                    </div>
+                    <p>Your trusted AI healthcare companion, available 24/7 to provide medical guidance and support.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">HIPAA Compliance</a></li>
+                        <li><a href="#">Medical Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> support@medicareai.com</p>
+                        <p><i class="fas fa-phone"></i> 1-800-MEDICARE</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Available Worldwide</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Medicare AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+   
+</body>
+</html>
