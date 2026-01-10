@@ -304,7 +304,7 @@ function createChatbotModal() {
     iframeContainer.className = 'chatbot-iframe-wrapper';
     iframeContainer.innerHTML = `
         <iframe
-            src="https://www.chatbase.co/chatbot-iframe/YNIf09EWHXwo9_Nd5UFU2"
+            src="https://www.chatbase.co/YNIf09EWHXwo9_Nd5UFU2/help"
             width="100%"
             height="100%"
             frameborder="0"
@@ -398,3 +398,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }, 3000); // Show after 3 seconds
 });
+
