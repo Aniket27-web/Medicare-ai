@@ -398,4 +398,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }, 3000); // Show after 3 seconds
 });
+ function downloadApk() {
+    window.location.href = "app-debug.apk";
+  }
 
