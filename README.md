@@ -8,7 +8,7 @@ This project aims to support rural and semi-urban populations by providing easy-
 ---
 
 ## 🚀 Live Demo
-https://medicare-ai-weld.vercel.app
+[https://medicare-ai-weld.vercel.app](https://medicare-ai-rho.vercel.app/)
 
 ---
 
